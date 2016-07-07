@@ -1,0 +1,211 @@
+﻿@font-face {
+	font-family: 'helvetica neue';
+	}
+
+.wrapper {
+	width:100%;
+	font-family: helvetica neue, sans-serif;
+}
+
+header {
+	background: url('../img/fon-menu.png') repeat;
+	height: 35px;
+}
+
+.main {
+	float:right;
+}
+
+.main li {
+	display: inline-block;
+}
+
+.main li a {
+	display: block;
+	text-decoration:none;
+    padding : 11px 10px 10px;
+	color: #60b5ed;
+	font-size: 14px;
+}
+
+.main li a:hover {
+	display: block;
+	background: #4eabda;
+    padding : 11px 10px 10px;
+    color: #ffffff;
+}
+
+.main2 {
+	float:right;
+	margin: 0px 20px 0px;
+}
+
+.main2 li {
+	display: inline-block;
+}
+
+.main2 li a {
+	display: block;
+	text-decoration:none;
+    padding : 11px 10px 10px;
+	font-size: 14px;
+	color: #fefefe;
+	border-left: 1px solid #56a2dc;
+	border-right: 1px solid #56a2dc;
+}
+
+.main2 li a:hover {
+	display: block;
+	background-image: -moz-linear-gradient(top,#51b1dc, #2e7ac4);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#51b1dc), to(#2e7ac4));
+    padding : 11px 10px 10px;
+    color: #ffffff;
+}
+
+.main2 li p {
+    color: #ffffff;
+}
+
+.main2 img {
+	float: left;
+    margin: 0px 10px;
+}
+
+.main2 span {
+	text-decoration:underline;
+}
+
+section {
+	width:100%;
+	height: 1028px;
+	background: url('../img/fon.png') no-repeat center center;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+section .conteiner {
+	width: 560px;
+	height: 613px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.head {
+	background-color: rgba(0,0,0,0.5);
+	width: 560px;
+	height: 60px;
+	position: relative;
+    color: #ffffff;
+	font-size: 24px;
+}
+
+.head p{
+	display: block;
+    position: absolute;
+	top: 20px;
+	left: 210px;
+}
+
+.content {
+	width: 560px;
+	height: 550px;
+	margin-top: 2px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.fb {
+	width: 276px;
+	height: 35px;
+	margin-bottom: 30px;
+	padding: 0;
+	border: 0;
+	background: transparent url('../img/fb.png') no-repeat center top;
+	text-indent: -1000em;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.forma {
+	width: 285px;
+	height: 300px;
+	text-align: center;
+	position: relative;
+	top: 37px;
+	left: 150px;
+}
+
+.forma img {
+	margin-bottom: 30px;
+}
+
+input {
+	border: none;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+	width: 256px;
+	height: 35px;
+	background-image: -moz-linear-gradient(top,#111010, #141414);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#111010), to(#141414));
+	border-bottom: 2px solid #484848;
+	color: #cccccc;
+	padding-left: 20px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+input[type="password"]:focus {
+	background: #1b5288;
+	box-shadow: 0 0 3px 3px #4f88b3;
+}
+
+input[type="text"]:focus {
+	background: #1b5288;
+	box-shadow: 0 0 3px 3px #4f88b3;
+}
+
+input[type="email"]:focus {
+	background: #1b5288;
+	box-shadow: 0 0 3px 3px #4f88b3;
+} 
+
+input::-webkit-input-placeholder {
+	color: #cccccc;
+}
+
+input::-moz-placeholder {
+	color: #cccccc;
+}
+
+label {
+	color: #a5a49f;
+	font-size: 14px;
+}
+
+.submit {
+	width: 151px;
+	height: 37px;
+	margin: 15px;
+	padding: 0;
+	border: 0;
+	background: transparent url('../img/submit.png') no-repeat center top;
+	text-indent: -1000em;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.content p {
+	font-size: 11px;
+	color: #cccccc;
+	position: relative;
+	top: 90px;
+	left: 10px;
+	display: block;
+	margin: 120px;
+	text-align: center;
+}
