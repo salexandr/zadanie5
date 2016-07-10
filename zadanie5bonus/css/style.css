@@ -1,0 +1,21 @@
+﻿table tr td {
+	width: 70px;
+	height: 65px;
+	border: 8px solid black;
+}
+
+header {
+	margin: 20px;
+	text-align: center;
+}
+
+section {
+	width: 560px;
+	height: 613px;
+	position: absolute;
+	top: 30;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
